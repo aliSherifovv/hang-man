@@ -1,0 +1,33 @@
+"Hangman" is a web game perfect for people of all ages. The project was created in order to be practised API fetching, JS modules, 
+ES6 classes and bundling through Webpack. The main focused is not put on the design. However, every component of the app is styled 
+in SCSS then compiled to CSS through npm scss package. The game is responsive and suitable for all devices.
+
+Rules:
+- The player should guess the displayed word by picking letters of the english alphabet.
+- For every mistake the player will be punished by going step closer to defeat.
+- The player receives points for every word guessed right.
+- The player loses all of their points, if they lose.
+- Added points to the score will be equal to the number of letters in the guessed word.
+- The player will keep their points even, if they refresh the page.
+ 
+API: 
+- "https://random-word-api.herokuapp.com/home"
+
+Languages: HTML, CSS and JavaScript
+
+The project shows usage of: 
+- SCSS
+- Webpack
+- ES6 classes
+- JS modules
+- API
+- Local storage
+- DOM manipulation
+- Asynchronous function
+- try-catch
+- Mathematical operations
+- NPM
+- this keyword
+- Array methods 
+
+*** The API has massive data base, so it may take a little while to render a word. ***
